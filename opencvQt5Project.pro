@@ -9,25 +9,25 @@ CONFIG += c++17
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    colordetector.cpp \
-    colordetectorcontroller.cpp \
-    histogram1d.cpp \
-    main.cpp \
-    mainwindow.cpp \
-    mainwindow2.cpp \
-    morphofeatures.cpp
+    src/colordetector.cpp \
+    src/colordetectorcontroller.cpp \
+    src/histogram1d.cpp \
+    src/main.cpp \
+    src/mainwindow.cpp \
+    src/mainwindow2.cpp \
+    src/morphofeatures.cpp
 
 HEADERS += \
-    colordetector.h \
-    colordetectorcontroller.h \
-    histogram1d.h \
-    mainwindow.h \
-    mainwindow2.h \
-    morphofeatures.h
+    headers/colordetector.h \
+    headers/colordetectorcontroller.h \
+    headers/histogram1d.h \
+    headers/mainwindow.h \
+    headers/mainwindow2.h \
+    headers/morphofeatures.h
 
 FORMS += \
-    mainwindow.ui \
-    mainwindow2.ui
+    forms/mainwindow.ui \
+    forms/mainwindow2.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -55,4 +55,4 @@ INCLUDEPATH += C:\\OpenCV\\opencv\\build\\include
 DEPENDPATH += C:\\OpenCV\\opencv\\build\\include
 
 RESOURCES += \
-    resource.qrc
+    resource/resource.qrc
