@@ -1,4 +1,4 @@
-#include "mainwindow2.h"
+#include "headers/mainwindow2.h"
 #include "ui_mainwindow2.h"
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
@@ -6,8 +6,8 @@
 #include <opencv2/imgproc/imgproc.hpp>
 
 #include <QFileDialog>
-#include "histogram1d.h"
-#include "morphofeatures.h"
+#include "headers/histogram1d.h"
+#include "headers/morphofeatures.h"
 #include <iostream>
 
 MainWindow2::MainWindow2(QWidget *parent) :

@@ -1,6 +1,6 @@
-#include "mainwindow.h"
+#include "headers/mainwindow.h"
 #include "ui_mainwindow.h"
-#include "colordetectorcontroller.h"
+#include "headers/colordetectorcontroller.h"
 
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
