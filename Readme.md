@@ -75,4 +75,4 @@ Extend your skills to process video sequences and apply computer vision techniqu
 
 ---
 
-Feel free to reach out with any questions or feedback. Happy coding! 🚀
+Feel free to reach out with any questions or feedback 🚀.
